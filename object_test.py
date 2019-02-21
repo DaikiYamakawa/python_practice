@@ -21,6 +21,10 @@ class Prism:
     def content(self): 
         return self.width*self.height*self.depth
 
+# Prismクラスを継承したCubeクラスを定義
+class Cube(Prism):
+    def __init__(self, length):
+        self.width = 
 i = Myclass() # Myclassというクラス名からインスタンスを作成し変数iに代入
 i.value = 5
 print(i.value)
