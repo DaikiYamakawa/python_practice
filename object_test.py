@@ -1,4 +1,5 @@
 from decimal import Decimal
+from strdict import StrDict
 
 d = Decimal(10)
 print(d.sqrt())
@@ -59,3 +60,9 @@ i.x = 10
 print(i.x)
 
 print(i._Prop__x)
+
+d = StrDict()
+d['spam'] = 1
+print(d['spam'])
+
+d[1] = 1
